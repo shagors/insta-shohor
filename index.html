@@ -78,44 +78,21 @@
             </div>
         </main>
         <section class="container">
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                            How does JavaScript work ?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body">
-                            <strong>JavaScript is the programming language of the web.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        What does JavaScript event loop do ?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            Local storage and Session Storage Difference ?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p>
+                <h3>How does JavaScript work ?</h3>
+                <strong>JavaScript is primarily a client-side language.</strong> javaScript works on browser. Everything in JavaScript happens inside an Execution Context. The web browser loads a web page, analyze the HTML, and creates what is known as a Document Object Model (DOM) from the contents. That means that it is a computer programming language that runs inside an Internet browser. Engines are complicated. Its work this ways easily =>
+                    1. The engine reads the script.
+                    2. Then it converts the script to the machine language.
+                    3. And then the machine code runs, pretty fast.
+            </p>
+            <p>
+                <h3>How does JavaScript Event loop do ?</h3>
+                JavaScript is a single-threaded programming language. This means that JavaScript can do only one thing at a single point in time. But event loop helps multi threading type work. When a job start that time all job sending a event queue. Its follows the the queue data structure and main the sequence for execution. As example when we call API that time firstly call async function and send to browser. Then browser access the api and built into browser system. Then shows browser UI and user see that job.
+            </p>
+            <p>
+                <h3>Local Storage and Session Storage difference</h3>
+                The difference between two sessions localStorage data doesn't expire but when the browser close or site close or page sessions end sessionStorage data is cleared.
+            </p>
         </section>
         <footer></footer>
 
